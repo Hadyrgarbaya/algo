@@ -1,0 +1,22 @@
+
+ALGORITHM algorithm_checkpoint
+VAR
+    wrd,vi,i , c: INTEGER
+    a:CHAR
+BEGIN
+ REPEAT
+ READ (a) 
+    a = CHAR 
+     c = c+1
+IF (a = 'a' or a = 'e'  or a = 'i' or a = 'o'or a='u' or a = 'y' ) THEN
+vi := vi+1 
+END_IF
+IF (a=' ') THEN
+    wrd := wrd+1 
+END_IF
+ UNTIL ( a= '.')
+ write (wrd , vi , i , c)
+END
+
+
+
